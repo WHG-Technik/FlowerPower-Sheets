@@ -174,8 +174,6 @@ properly without the risk of failture during use. Fixing soldering would take at
     \hline
     \thickhline
 \end{tabularx}
-\begin{tablenotes}
-\end{tablenotes}
 \end{threeparttable}
 \end{table}
 
@@ -184,8 +182,31 @@ station is modified. This could bring more differntiation and complexity.
 
 \pagebreak
 
-\section{Legal and further information}
+\section{PSU Requirements}
 
+The PSU should be rated at 120V or 230V AC with follwing temperature dependend performance curve. The use of other PSUs may be indifferent to the
+AC voltage SOC in germany and could cause real damage to the system. So if you do not want to roast your controller or modules you should use an rated PSU
+that outputs clean DC voltage. An discontiutiy in the descriptive function of the PSU may also be a problem because an short current stay may cause a full reboot of
+the controller which could lead to stochastic/undeterministic behaviour of the modules. So please make sure that if you use an indifferent PSU the period of current loss is
+smaller that the duty-cycle period of the internal system PWM of the controller. You can get this information from the data sheets of the different diodes and decoder.
+\includegraphics[scale=1]{PSU curve.png}
+
+Furthermore, the fading behaviour of the sinus cycles within AUD condensator in the PSU should be close to SAF level. An full unload during a PWN duty cycle could lead to serious problems.
+The DMX-grammar of the decoder is described by a EBNF(Extended Backus-Naur-Form). It can also be descripted way simpler through a simple deterministic grammar G(NT, T, P, S). You can look both up 
+in the data sheet of the decoder. So please make sure the grammar allows DCF. If it does not, you will need to use an PSU that supports AVT. 
+\includegraphics[scale=0.5]{condensator.png}
+
+Ideal current load can be calculated with the simple formula of condensator loading:
+\includegraphics[scale=1]{formel.png}
+
+If you want to get deeper into the duty cycle of the PSU you will have to use maxwells equations.
+\includegraphics[scale=1]{komplexe formel.png}
+Maxwells equations can also be used to calculate the indifferentiation of the PWN duty-cycle and the SCM of the controller. If you want to go even deeper into matter you will
+need to check if the 44Hz DMX refresh rate are matching with any Von-Neumann ideal pipeline hazards (Structural, data, control) which can be eliminated by a cleaner DC voltage.
+
+
+\section{Legal and further information}
+ 
 The Flower Power System is property of RathjeVT and can only be used by people who got the agreement of usage. 
 This sheet may not provide the newest concepts of the system. Therefore, the e-patching may differ to your installation.
 It is only for the understanding of the system and not ment for bugfixing. 

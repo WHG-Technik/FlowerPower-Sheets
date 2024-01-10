@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.10)  10 JAN 2024 20:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.1.10)  10 JAN 2024 21:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1025,7 +1025,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <20.74> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <17.28> on input line 16.
-<./images//Flower Power System.png, id=63, 1175.39125pt x 831.105pt>
+<./images//Flower Power System.png, id=71, 1175.39125pt x 831.105pt>
 File: ./images//Flower Power System.png Graphic file (type png)
 <use ./images//Flower Power System.png>
 Package pdftex.def Info: ./images//Flower Power System.png  used on input line 
@@ -1057,7 +1057,7 @@ Package pdftex.def Info: ./images//Flower Power System.png  used on input line
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-<./images//Flower Power.png, id=96, 1173.38374pt x 830.10126pt>
+<./images//Flower Power.png, id=104, 1173.38374pt x 830.10126pt>
 File: ./images//Flower Power.png Graphic file (type png)
 <use ./images//Flower Power.png>
 Package pdftex.def Info: ./images//Flower Power.png  used on input line 117.
@@ -1066,7 +1066,7 @@ Package pdftex.def Info: ./images//Flower Power.png  used on input line 117.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4 <./images//Flower Power.png>]
-<./images//Flower Station 1.png, id=103, 1173.38374pt x 830.10126pt>
+<./images//Flower Station 1.png, id=111, 1173.38374pt x 830.10126pt>
 File: ./images//Flower Station 1.png Graphic file (type png)
 <use ./images//Flower Station 1.png>
 Package pdftex.def Info: ./images//Flower Station 1.png  used on input line 133
@@ -1089,7 +1089,7 @@ l.154 \end{tablenotes}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-<./images//Flower Station 2.png, id=104, 1173.38374pt x 832.10875pt>
+<./images//Flower Station 2.png, id=112, 1173.38374pt x 832.10875pt>
 File: ./images//Flower Station 2.png Graphic file (type png)
 <use ./images//Flower Station 2.png>
 Package pdftex.def Info: ./images//Flower Station 2.png  used on input line 160
@@ -1104,59 +1104,80 @@ Underfull \hbox (badness 10000) in alignment at lines 176--176
  []
 
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.178 \end{tablenotes}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
 Underfull \vbox (badness 4254) has occurred while \output is active []
 
- [6 <./images//Flower Station 2.png>] [7]
+ [6 <./images//Flower Station 2.png>]
+<./images//PSU curve.png, id=129, 318.18875pt x 228.855pt>
+File: ./images//PSU curve.png Graphic file (type png)
+<use ./images//PSU curve.png>
+Package pdftex.def Info: ./images//PSU curve.png  used on input line 192.
+(pdftex.def)             Requested size: 318.18796pt x 228.85443pt.
+<./images//condensator.png, id=130, 521.95pt x 289.08pt>
+File: ./images//condensator.png Graphic file (type png)
+<use ./images//condensator.png>
+Package pdftex.def Info: ./images//condensator.png  used on input line 197.
+(pdftex.def)             Requested size: 260.97435pt x 144.53964pt.
+<./images//formel.png, id=131, 257.96375pt x 33.12375pt>
+File: ./images//formel.png Graphic file (type png)
+<use ./images//formel.png>
+Package pdftex.def Info: ./images//formel.png  used on input line 200.
+(pdftex.def)             Requested size: 257.9631pt x 33.12366pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--201
+[]\OT1/cmr/m/n/10 Ideal cur-rent load can be cal-cu-lated with the sim-ple for-
+mula of con-den-sator load-ing:
+ []
+
+<./images//komplexe formel.png, id=132, 408.52625pt x 41.15375pt>
+File: ./images//komplexe formel.png Graphic file (type png)
+<use ./images//komplexe formel.png>
+Package pdftex.def Info: ./images//komplexe formel.png  used on input line 203.
+
+(pdftex.def)             Requested size: 408.52525pt x 41.15364pt.
+
+Underfull \hbox (badness 1147) in paragraph at lines 202--206
+[]\OT1/cmr/m/n/10 If you want to get deeper into the duty cy-cle of the PSU you
+ will have to use maxwells equa-tions.
+ []
+
+[7 <./images//PSU curve.png> <./images//condensator.png> <./images//formel.png>
+] [8 <./images//komplexe formel.png>]
 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./test.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package rerunfilecheck Warning: File `test.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `test.out':
-(rerunfilecheck)             Before: B1A7DB2BD15A06BAC9BC1415D83B6FFC;1972
-(rerunfilecheck)             After:  128CDDCF35346441D8BEAADE1ADE188B;2172.
+Package rerunfilecheck Info: File `test.out' has not changed.
+(rerunfilecheck)             Checksum: FE64E76EA3BFD1215AEAEF983DDDB65D;2301.
  ) 
 Here is how much of TeX's memory you used:
- 48629 strings out of 476025
- 1257063 string characters out of 5790017
+ 48670 strings out of 476025
+ 1258041 string characters out of 5790017
  1931449 words of memory out of 5000000
- 68478 multiletter control sequences out of 15000+600000
+ 68512 multiletter control sequences out of 15000+600000
  517524 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,14n,94p,723b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
-usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/
-local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/loc
-al/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/loca
-l/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/loc
-al/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
-l/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/
-texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on test.pdf (7 pages, 278093 bytes).
+
+pdfTeX warning (dest): name{page.9} has been referenced but does not exist, rep
+laced by a fixed one
+
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+/usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></us
+r/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
+cal/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local
+/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/
+texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local
+/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/te
+xlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on test.pdf (8 pages, 306027 bytes).
 PDF statistics:
- 184 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
- 29 named destinations out of 1000 (max. 500000)
- 145 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 206 PDF objects out of 1000 (max. 8388607)
+ 156 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 
